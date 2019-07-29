@@ -1954,11 +1954,6 @@ co@^4.6.0:
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
   integrity sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
 
-cocoa-lumberjack@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/cocoa-lumberjack/-/cocoa-lumberjack-3.0.5.tgz#0b29683272ad426974a2c71c86d4de9a81029e6d"
-  integrity sha512-zwzRb4hhObx8nLBo8QcE1TvJfHdE1vdQRxYT6Zyh8yLB8yYz4u/FCkHeVNhUNVxyXopkWL53m2rEwpvjm9q+Yw==
-
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
@@ -6064,24 +6059,23 @@ react-lifecycles-compat@^3, react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-native-background-fetch@~2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-2.6.0.tgz#410741a9454c59f4463b12fd41fdb51eb181545c"
-  integrity sha512-6a0ITgePMnFa1sVoCYeVuXvvjQzZavN7ynvchJixoQZEi8TreTuePUDxmzQVf7eZPCBciSaogfCoBwAzDRsK0Q==
+react-native-background-fetch@~2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-2.6.1.tgz#a38c298cf748ba332e51c724ad4d7af8677929af"
+  integrity sha512-/P6GceM1/OvTeHmnwEYJl89FAY2ExpAJfMC4Z1eYUIMwR93Vv2ZLEYa5FHyhItMMeg2ZzlEXmiZTVZ6IbYeb+A==
   dependencies:
     fast-plist "^0.1.2"
     plist "^3.0.1"
     xcode "^2.0.0"
 
-react-native-background-geolocation@^3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/react-native-background-geolocation/-/react-native-background-geolocation-3.0.7.tgz#fde19e5ed1587862449f6e74f8289198ea4aca74"
-  integrity sha512-Gu5oNNav1Xjayas0FTJxwZK9PY7hJsBEYtPOC8/dMVJgWqT79jVy1wYtDPeqwJ8AQOERwyjHjKOlx8PQsfE+Ag==
+react-native-background-geolocation@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-background-geolocation/-/react-native-background-geolocation-3.0.9.tgz#636f2e11660a904a68c4cb3fbebd10a3cf3e9e43"
+  integrity sha512-mpLUbaj9XaW1Q8GUz2xGoOAOy5jN2UyFkxzFmsfgI/WSDopGWRhZL8OLYjCVKVktjxqNbnIatMFEyrfAD/skLw==
   dependencies:
-    cocoa-lumberjack "^3.0.5"
     fast-plist "^0.1.2"
     plist "^2.0.1"
-    react-native-background-fetch "~2.6.0"
+    react-native-background-fetch "~2.6.1"
     xcode "^0.9.1"
 
 react-native-dismiss-keyboard@1.0.0:
@@ -6120,6 +6114,11 @@ react-native-geolocation@^1.0.0:
   version "0.24.0"
   resolved "git+https://github.com/react-native-community/react-native-maps.git#62bb953c19e55adb29200ecff9981eb5e594a7b3"
 
+react-native-push-notification@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-3.1.3.tgz#f8dab43aec734dbb1a8bbc50caf82dd682655392"
+  integrity sha512-bOZBApQ2zQ41/kSX047jm06XeDl2ylCwMuraT+4yRrlMQ6FDoAxIBh+Q+6jE1B5tVzot62mZnPcV6JaFTWtYeg==
+
 react-native-router-flux@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-4.0.6.tgz#e4723f5ce89cb5822e0c9bb6d0a8d4de6179eb58"
@@ -6142,6 +6141,11 @@ react-native-screens@^1.0.0-alpha.11:
   version "1.0.0-alpha.22"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.22.tgz#7a120377b52aa9bbb94d0b8541a014026be9289b"
   integrity sha512-kSyAt0AeVU6N7ZonfV6dP6iZF8B7Bce+tk3eujXhzBGsLg0VSLnU7uE9VqJF0xdQrHR91ZjGgVMieo/8df9KTA==
+
+react-native-sound-player@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-sound-player/-/react-native-sound-player-0.10.0.tgz#9f503a5c96865d6ab0b1d366ccee6731a1293e60"
+  integrity sha512-QCBeQyh3s2vv7KQfwH7Ud2fkKPrFQ8nFZxQKI8LHoa7CpIlX+GMAUmhh4klGZBDzYB6DhCHhe0m+MbA4jeOxQA==
 
 react-native-tab-view@^0.0.77:
   version "0.0.77"

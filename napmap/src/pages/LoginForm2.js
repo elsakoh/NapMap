@@ -5,7 +5,7 @@ import { Actions } from 'react-native-router-flux';
 import { emailChanged, passwordChanged, loginUser, signupUser } from '../actions';
 import { Card, CardSection, Input, Button, Spinner } from '../components/common';
 import firebase from 'firebase';
-
+// import SoundPlayer from 'react-native-sound-player'
 
 class LoginForm2 extends Component {
   constructor(props) {
@@ -18,6 +18,16 @@ class LoginForm2 extends Component {
         error: true,
     };
 }
+// componentDidMount() {
+//   try {
+//     // play the file tone.mp3
+//     SoundPlayer.playSoundFile('starwars', 'mp3')
+//     // or play from url
+//     SoundPlayer.playUrl('https://example.com/music.mp3')
+// } catch (e) {
+//     console.log(`cannot play the sound file`, e)
+// }
+// }
   onEmailChange(text) {
     this.props.emailChanged(text);
     //now emailChanged is connected to this component as a prop
